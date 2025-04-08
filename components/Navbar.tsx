@@ -17,7 +17,7 @@ const Navbar = async () => {
           {session?.user ? (
             <>
               <Link href="/startup/create">
-                <h1 className="text-black">Dashboard</h1>
+                <h1 className="text-black">Create</h1>
               </Link>
 
               <form
