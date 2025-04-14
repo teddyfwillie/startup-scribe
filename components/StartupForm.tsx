@@ -153,7 +153,7 @@ const StartupForm = () => {
       </div>
       <button
         type="submit"
-        className="bg-[#EE2B69] border-[4px] border-black flex items-center justify-center rounded-full p-5 min-h-[70px] w-full font-bold text-[18px] text-white "
+        className="bg-[#2E5BFF] border-[4px] border-black flex items-center justify-center rounded-full p-5 min-h-[70px] w-full font-bold text-[18px] text-white "
         disabled={isPending}
       >
         {isPending ? "Creating..." : "Create Startup"}
