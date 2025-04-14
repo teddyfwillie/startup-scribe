@@ -1,5 +1,4 @@
 import { PLAYLIST_BY_SLUG_QUERY, STARTUP_BY_ID_QUERY } from "@/lib/queries";
-import { sanityFetch } from "@/sanity/lib/live";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
